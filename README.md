@@ -17,13 +17,13 @@ Includes functions for managing wealth, adding illnesses, checking treatment req
 4. Hospital
 Represents a hospital with a name, a collection of health care providers, and a collection of patients.
 Includes functions for signing health care providers, admitting and dismissing patients, retrieving health care providers and patients, and outputting hospital details.
-5 - 1. Health_Care_Provider
+5. - Health_Care_Provider
 A base class representing a health care provider with a name, set of specialties, and wealth.
 Contains virtual functions for performing procedures and managing licenses.
 Provides functionality for checking eligibility for a specialty, paying for licenses, and outputting provider details.
-5 - 2. Teaching_Health_Care_Provider
+- Teaching_Health_Care_Provider
 A derived class from Health_Care_Provider that specializes in teaching.
 Provides additional functionality for teaching other health care providers and managing teaching fees.
-5 - 3. Smart_Health_Care_Provider
+- Smart_Health_Care_Provider
 A derived class from Health_Care_Provider that has unique characteristics and behaviors.
 Implements functions related to performing procedures and managing licenses with specific rules.
